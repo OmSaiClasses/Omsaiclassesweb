@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Sai Classes | Excellence in Education</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBlue: '#0f172a',
+                        brandOrange: '#f59e0b',
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-brandBlue text-white sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <a href="#home" class="flex-shrink-0 flex items-center gap-3 group transition">
+                    <img src="https://ik.imagekit.io/0pbigpeehf/WhatsApp%20Image%202026-03-11%20at%2010.40.35%20AM.jpeg?text=OSC" alt="Om Sai Classes Logo" class="w-10 h-10 rounded-full border-2 border-brandOrange object-cover shadow-sm group-hover:scale-105 transition duration-300">
+                    <span class="font-bold text-2xl tracking-wider text-brandOrange font-serif">OM SAI CLASSES</span>
+                </a>
+
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="hover:text-brandOrange transition" data-i18n="navHome">Home</a>
+                    <a href="#information" class="hover:text-brandOrange transition" data-i18n="navInfo">Information</a>
+                    <a href="#admission" class="hover:text-brandOrange transition" data-i18n="navAdmission">Admission</a>
+                    <a href="#contact" class="hover:text-brandOrange transition" data-i18n="navContact">Contact Us</a>
+                    <button id="langToggle" class="bg-white/10 px-3 py-1 rounded border border-brandOrange hover:bg-brandOrange hover:text-white transition font-bold">मराठी</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative pt-32 pb-20 px-4 bg-[url('https://ik.imagekit.io/0pbigpeehf/WhatsApp%20Image%202026-03-11%20at%2012.26.06%20PM.jpeg?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-black/70">
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-20" data-aos="fade-down">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4 drop-shadow-lg font-serif" data-i18n="heroTitle">OM SAI CLASSES, JASAI</h1>
+                <h2 class="text-2xl md:text-4xl font-bold text-brandOrange mb-6 drop-shadow font-serif" data-i18n="heroSub">Excellence in Education</h2>
+                <p class="text-xl text-gray-200 italic font-light drop-shadow mb-8" data-i18n="heroTag">We will give strength to the wings, you take a high flight</p>
+                <a href="#admission" class="inline-block bg-brandOrange text-white font-bold py-4 px-10 rounded-full shadow-xl hover:bg-white hover:text-brandOrange transition duration-300 transform hover:-translate-y-1 text-lg" data-i18n="btnAdmission">Admission Form</a>
+            </div>
+
+            <div class="bg-white/95 backdrop-blur-sm rounded-2xl p-8 shadow-2xl max-w-5xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-10 text-brandBlue border-b-2 border-brandOrange inline-block pb-2 font-serif" data-aos="fade-up" data-i18n="foundersTitle">Our Founders</h2>
+                <div class="grid md:grid-cols-2 gap-10">
+                    <div class="bg-gray-50 rounded-xl p-6 text-center border-t-4 border-brandOrange transform hover:-translate-y-2 transition duration-300 shadow" data-aos="fade-right">
+                        <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden ring-4 ring-brandOrange/30">
+                            <img src="https://ik.imagekit.io/0pbigpeehf/WhatsApp%20Image%202026-03-11%20at%2012.09.20%20PM.jpeg" alt="Mr. Vijay Doltade" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="text-2xl font-bold text-brandBlue font-serif">Mr. Vijay Doltade</h3>
+                        <p class="text-brandOrange font-semibold mb-2" data-i18n="founder1Role">Founder & HOD of Physics</p>
+                        <p class="text-gray-600 text-sm" data-i18n="founder1Desc">M.Sc B.Ed in Physics with experience of 10+ Years.</p>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-6 text-center border-t-4 border-brandBlue transform hover:-translate-y-2 transition duration-300 shadow" data-aos="fade-left">
+                        <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 overflow-hidden ring-4 ring-brandBlue/30">
+                            <img src="https://ik.imagekit.io/0pbigpeehf/WhatsApp%20Image%202026-03-11%20at%2012.12.34%20PM.jpeg" alt="Mr. Raju Doltade" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="text-2xl font-bold text-brandBlue font-serif">Mr. Raju Doltade</h3>
+                        <p class="text-brandOrange font-semibold mb-2" data-i18n="founder2Role">HOD of Chemistry & Social Science</p>
+                        <p class="text-gray-600 text-sm" data-i18n="founder2Desc">M.Sc in Chemistry. 7+ Years of experience in teaching Chemistry and Social Science.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            <div class="max-w-7xl mx-auto relative z-10 mt-16" data-aos="fade-up">
+            <h2 class="text-3xl font-bold text-center mb-8 text-white drop-shadow font-serif" data-i18n="galleryTitle">Gallery</h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="h-48 bg-gray-200 overflow-hidden rounded-lg shadow-lg group cursor-pointer border-2 border-transparent hover:border-brandOrange transition duration-300 flex items-center justify-center">
+                    <img src="https://ik.imagekit.io/0pbigpeehf/20260228_203948.jpg.jpeg?w=500&auto=format&fit=crop" alt="Classroom view" class="w-full h-full object-contain transform transition duration-500 group-hover:scale-110 p-1">
+                </div>
+                
+                <div class="h-48 bg-gray-200 overflow-hidden rounded-lg shadow-lg group cursor-pointer border-2 border-transparent hover:border-brandOrange transition duration-300 flex items-center justify-center">
+                    <img src="https://ik.imagekit.io/0pbigpeehf/WhatsApp%20Image%202026-03-11%20at%2011.58.17%20AM.jpeg?w=500&auto=format&fit=crop" alt="Students studying" class="w-full h-full object-contain transform transition duration-500 group-hover:scale-110 p-1">
+                </div>
+                
+                <div class="h-48 bg-gray-200 overflow-hidden rounded-lg shadow-lg group cursor-pointer border-2 border-transparent hover:border-brandOrange transition duration-300 flex items-center justify-center">
+                    <img src="https://ik.imagekit.io/0pbigpeehf/image.png?w=500&auto=format&fit=crop" alt="Teacher explaining" class="w-full h-full object-contain transform transition duration-500 group-hover:scale-110 p-1">
+                </div>
+                
+                <div class="h-48 bg-gray-200 overflow-hidden rounded-lg shadow-lg group cursor-pointer border-2 border-transparent hover:border-brandOrange transition duration-300 flex items-center justify-center">
+                    <img src="https://ik.imagekit.io/0pbigpeehf/WhatsApp%20Image%202026-03-11%20at%2012.20.46%20PM.jpeg?w=500&auto=format&fit=crop" alt="Exam preparation" class="w-full h-full object-contain transform transition duration-500 group-hover:scale-110 p-1">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="information" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4" data-aos="fade-up">
+            <h2 class="text-3xl font-bold text-center mb-12 text-brandBlue font-serif" data-i18n="infoTitle">Our Courses & Guidance</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border-t-4 border-brandOrange hover:-translate-y-2 transition duration-300 text-center flex flex-col items-center justify-center min-h-[160px]">
+                    <i class="fa-solid fa-book-open text-3xl text-brandOrange mb-4"></i>
+                    <h3 class="text-xl font-bold text-brandBlue" data-i18n="course1">1st to 12th Grade Coaching Classes</h3>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border-t-4 border-brandBlue hover:-translate-y-2 transition duration-300 text-center flex flex-col items-center justify-center min-h-[160px]">
+                    <i class="fa-solid fa-microscope text-3xl text-brandBlue mb-4"></i>
+                    <h3 class="text-xl font-bold text-brandBlue" data-i18n="course2">MHT CET Guidance and Coaching</h3>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border-t-4 border-brandOrange hover:-translate-y-2 transition duration-300 text-center flex flex-col items-center justify-center min-h-[160px]">
+                    <i class="fa-solid fa-award text-3xl text-brandOrange mb-4"></i>
+                    <h3 class="text-xl font-bold text-brandBlue" data-i18n="course3">Scholarship Guidance</h3>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-md border-t-4 border-brandBlue hover:-translate-y-2 transition duration-300 text-center flex flex-col items-center justify-center min-h-[160px]">
+                    <i class="fa-solid fa-lightbulb text-3xl text-brandBlue mb-4"></i>
+                    <h3 class="text-xl font-bold text-brandBlue" data-i18n="course4">NMMS Guidance</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="admission" class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4" data-aos="fade-up">
+            <h2 class="text-3xl font-bold text-center mb-8 text-brandBlue font-serif" data-i18n="formTitle">Admission Form</h2>
+            <div class="bg-white p-8 rounded-xl shadow-xl border-t-4 border-brandOrange">
+                
+                <form id="admissionForm" class="space-y-8">
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-100">
+                        <h3 class="text-xl font-bold text-brandBlue border-b-2 border-brandOrange inline-block pb-1 mb-6 font-serif" data-i18n="sec1Title">1. Personal Information</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="flex flex-col">
+                                <label class="text-sm text-gray-600 font-semibold mb-1" data-i18n="lblFullName">Student's Full Name</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-user absolute top-3.5 left-3.5 text-gray-400"></i>
+                                    <input type="text" id="fullName" required class="w-full p-3 pl-10 border rounded bg-white focus:ring-2 focus:ring-brandOrange outline-none transition">
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-col">
+                                <label class="text-sm text-gray-600 font-semibold mb-1" data-i18n="lblContact">Student's Contact Number</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-phone absolute top-3.5 left-3.5 text-gray-400"></i>
+                                    <input type="tel" id="contactNumber" required class="w-full p-3 pl-10 border rounded bg-white focus:ring-2 focus:ring-brandOrange outline-none transition">
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-col">
+                                <label class="text-sm text-gray-600 font-semibold mb-1" data-i18n="lblGender">Gender</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-venus-mars absolute top-3.5 left-3.5 text-gray-400"></i>
+                                    <select id="gender" required class="w-full p-3 pl-10 border rounded bg-white focus:ring-2 focus:ring-brandOrange outline-none text-gray-700 transition appearance-none">
+                                        <option value="" disabled selected>---</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col">
+                                <label class="text-sm text-gray-600 font-semibold mb-1" data-i18n="lblTshirt">T-Shirt Size</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-shirt absolute top-3.5 left-3.5 text-gray-400"></i>
+                                    <select id="tshirtSize" required class="w-full p-3 pl-10 border rounded bg-white focus:ring-2 focus:ring-brandOrange outline-none text-gray-700 transition appearance-none">
+                                        <option value="" disabled selected>---</option>
+                                        <option value="XS">XS</option>
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                        <option value="XXL">XXL</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-100">
+                        <h3 class="text-xl font-bold text-brandBlue border-b-2 border-brandOrange inline-block pb-1 mb-6 font-serif" data-i18n="sec2Title">2. Parent / Guardian Information</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="flex flex-col">
+                                <label class="text-sm text-gray-600 font-semibold mb-1" data-i18n="lblParentName">Parent's Full Name</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-user-tie absolute top-3.5 left-3.5 text-gray-400"></i>
+                                    <input type="text" id="parentName" required class="w-full p-3 pl-10 border rounded bg-white focus:ring-2 focus:ring-brandOrange outline-none transition">
+                                </div>
+                            </div>
+                            
+                            <div class="flex flex-col">
+                                <label class="text-sm text-gray-600 font-semibold mb-1" data-i18n="lblParentOcc">Parent's Occupation</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-briefcase absolute top-3.5 left-3.5 text-gray-400"></i>
+                                    <input type="text" id="parentOcc" class="w-full p-3 pl-10 border rounded bg-white focus:ring-2 focus:ring-brandOrange outline-none transition">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col mt-6">
+                            <label class="text-sm text-gray-600 font-semibold mb-1" data-i18n="lblAddress">Residential Address</label>
+                            <div class="relative">
+                                <i class="fa-solid fa-house absolute top-4 left-3.5 text-gray-400"></i>
+                                <textarea id="address" rows="3" required class="w-full p-3 pl-10 border rounded bg-white focus:ring-2 focus:ring-brandOrange outline-none transition"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-100">
+                        <h3 class="text-xl font-bold text-brandBlue border-b-2 border-brandOrange inline-block pb-1 mb-6 font-serif" data-i18n="sec3Title">3. Academic Information</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="flex flex-col">
+                                <label class="text-sm text-gray-600 font-semibold mb-1" data-i18n="lblGrade">Grade Seeking Admission For</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-graduation-cap absolute top-3.5 left-3.5 text-gray-400"></i>
+                                    <select id="grade" required class="w-full p-3 pl-10 border rounded bg-white focus:ring-2 focus:ring-brandOrange outline-none text-gray-700 transition appearance-none">
+                                        <option value="" disabled selected>---</option>
+                                        <option value="1">1st Standard</option>
+                                        <option value="2">2nd Standard</option>
+                                        <option value="3">3rd Standard</option>
+                                        <option value="4">4th Standard</option>
+                                        <option value="5">5th Standard</option>
+                                        <option value="6">6th Standard</option>
+                                        <option value="7">7th Standard</option>
+                                        <option value="8">8th Standard</option>
+                                        <option value="9">9th Standard</option>
+                                        <option value="10">10th Standard</option>
+                                        <option value="11">11th Standard</option>
+                                        <option value="12">12th Standard</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col">
+                                <label class="text-sm text-gray-600 font-semibold mb-1" data-i18n="lblMarks">Previous Year Marks / Percentage</label>
+                                <div class="relative">
+                                    <i class="fa-solid fa-percent absolute top-3.5 left-3.5 text-gray-400"></i>
+                                    <input type="text" id="prevMarks" required class="w-full p-3 pl-10 border rounded bg-white focus:ring-2 focus:ring-brandOrange outline-none transition">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col mt-6">
+                            <label class="text-sm text-gray-600 font-semibold mb-1" data-i18n="lblSchool">Previous School Name</label>
+                            <div class="relative">
+                                <i class="fa-solid fa-school absolute top-3.5 left-3.5 text-gray-400"></i>
+                                <input type="text" id="prevSchool" required class="w-full p-3 pl-10 border rounded bg-white focus:ring-2 focus:ring-brandOrange outline-none transition">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="w-full bg-brandBlue text-white font-bold py-4 rounded-lg hover:bg-brandOrange transition duration-300 text-xl shadow-lg transform hover:-translate-y-1 flex justify-center items-center gap-2">
+                        <i class="fa-solid fa-shield-halved"></i> <span id="submitText" data-i18n="btnSubmit">Pay ₹300 & Submit Registration</span>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-brandBlue text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8 text-center md:text-left" data-aos="fade-up">
+            <div>
+                <h3 class="text-2xl font-bold text-brandOrange mb-4 font-serif" data-i18n="contactTitle">Contact Us</h3>
+                <p class="mb-2"><i class="fa-solid fa-envelope mr-2 text-brandOrange"></i> dolatadev925z@gmail.com</p>
+                <p class="mb-2"><i class="fa-solid fa-phone mr-2 text-brandOrange"></i> +91 8108267925 / +91 7666684586</p>
+                <p><i class="fa-solid fa-location-dot mr-2 text-brandOrange"></i> At/Post-Jasai, Tal-Uran, Dist-Raigad - 410206</p>
+            </div>
+            <div class="flex flex-col items-center md:items-end justify-center">
+                <p class="text-xl font-bold mb-2 font-serif">OM SAI CLASSES</p>
+                <p class="text-sm text-gray-400">© 2026 Om Sai Classes. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // 1. Initialize Animations
+        AOS.init({ duration: 800, once: true });
+
+        // 2. Marathi Translation Dictionary
+        const translations = {
+            en: {
+                navHome: "Home", navInfo: "Information", navAdmission: "Admission", navContact: "Contact Us",
+                heroTitle: "OM SAI CLASSES, JASAI", heroSub: "Excellence in Education", heroTag: "We will give strength to the wings, you take a high flight", btnAdmission: "Admission Form",
+                foundersTitle: "Our Founders", founder1Role: "Founder & HOD of Physics", founder1Desc: "M.Sc B.Ed in Physics with experience of 10+ Years.",
+                founder2Role: "HOD of Chemistry & Social Science", founder2Desc: "M.Sc in Chemistry. 7+ Years of experience in teaching Chemistry and Social Science.",
+                galleryTitle: "Gallery", 
+                infoTitle: "Our Courses & Guidance", 
+                course1: "1st to 12th Grade Coaching Classes", course2: "MHT CET Guidance and Coaching", 
+                course3: "Scholarship Guidance", course4: "NMMS Guidance",
+                formTitle: "Admission Form", sec1Title: "1. Personal Information", lblFullName: "Student's Full Name", lblContact: "Student's Contact Number",
+                lblGender: "Gender", lblTshirt: "T-Shirt Size", sec2Title: "2. Parent / Guardian Information", lblParentName: "Parent's Full Name",
+                lblParentOcc: "Parent's Occupation", lblAddress: "Residential Address", sec3Title: "3. Academic Information", lblGrade: "Grade Seeking Admission For",
+                lblMarks: "Previous Year Marks / Percentage", lblSchool: "Previous School Name", btnSubmit: "Pay ₹300 & Submit Registration", contactTitle: "Contact Us"
+            },
+            mr: {
+                navHome: "मुखपृष्ठ", navInfo: "माहिती", navAdmission: "प्रवेश", navContact: "संपर्क",
+                heroTitle: "ओम साई क्लासेस, जासई", heroSub: "शिक्षणातील उत्कृष्टता", heroTag: "पंखांना बळ आम्ही देऊ, उंच भरारी तुम्ही घ्या", btnAdmission: "प्रवेश अर्ज",
+                foundersTitle: "आमचे संस्थापक", founder1Role: "संस्थापक आणि भौतिकशास्त्र विभागप्रमुख", founder1Desc: "भौतिकशास्त्रामध्ये M.Sc, B.Ed आणि १०+ वर्षांचा शिकवण्याचा अनुभव.",
+                founder2Role: "रसायनशास्त्र आणि समाजशास्त्र विभागप्रमुख", founder2Desc: "रसायनशास्त्रामध्ये M.Sc. रसायनशास्त्र आणि समाजशास्त्र शिकवण्याचा ७+ वर्षांचा अनुभव.",
+                galleryTitle: "फोटो गॅलरी", 
+                infoTitle: "आमचे कोर्सेस आणि मार्गदर्शन", 
+                course1: "१ ली ते १२ वी पर्यंतचे कोचिंग क्लासेस", course2: "MHT CET मार्गदर्शन आणि कोचिंग", 
+                course3: "शिष्यवृत्ती (Scholarship) मार्गदर्शन", course4: "NMMS मार्गदर्शन",
+                formTitle: "प्रवेश अर्ज", sec1Title: "१. वैयक्तिक माहिती", lblFullName: "विद्यार्थ्याचे संपूर्ण नाव", lblContact: "संपर्क क्रमांक (मोबाईल)",
+                lblGender: "लिंग", lblTshirt: "टी-शर्ट साईझ", sec2Title: "२. पालकांची माहिती", lblParentName: "पालकांचे संपूर्ण नाव",
+                lblParentOcc: "पालकांचा व्यवसाय", lblAddress: "राहण्याचा पत्ता", sec3Title: "३. शैक्षणिक माहिती", lblGrade: "ज्या इयत्तेत प्रवेश घ्यायचा आहे ती इयत्ता",
+                lblMarks: "मागील वर्षाचे गुण / टक्केवारी", lblSchool: "मागील शाळेचे नाव", btnSubmit: "₹३०० भरा आणि अर्ज सबमिट करा", contactTitle: "संपर्क"
+            }
+        };
+
+        // Language Toggle Logic
+        const langBtn = document.getElementById('langToggle');
+        let currentLang = 'en';
+
+        langBtn.addEventListener('click', () => {
+            currentLang = currentLang === 'en' ? 'mr' : 'en';
+            langBtn.innerText = currentLang === 'en' ? "मराठी" : "English";
+            
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[currentLang][key]) {
+                    el.innerText = translations[currentLang][key];
+                }
+            });
+        });
+
+        // 3. The Admission Form Engine (Razorpay + Make.com)
+        document.getElementById('admissionForm').addEventListener('submit', function(e) {
+            e.preventDefault(); 
+            const submitBtn = document.getElementById('submitBtn');
+            const submitText = document.getElementById('submitText');
+            
+            submitText.innerText = currentLang === 'en' ? "Processing..." : "प्रक्रिया सुरू आहे...";
+            submitBtn.disabled = true;
+
+            const studentData = {
+                fullName: document.getElementById('fullName').value, contactNumber: document.getElementById('contactNumber').value,
+                gender: document.getElementById('gender').value, parentName: document.getElementById('parentName').value,
+                parentOccupation: document.getElementById('parentOcc').value, address: document.getElementById('address').value,
+                grade: document.getElementById('grade').value, tshirtSize: document.getElementById('tshirtSize').value,
+                previousMarks: document.getElementById('prevMarks').value, previousSchool: document.getElementById('prevSchool').value,
+                timestamp: new Date().toISOString()
+            };
+
+            var options = {
+                "key": "rzp_test_SPojPphAK64mph", 
+                "amount": 30000, 
+                "currency": "INR",
+                "name": "Om Sai Classes",
+                "description": "Admission Fee for " + studentData.fullName,
+                "handler": function (response) {
+                    studentData.paymentId = response.razorpay_payment_id;
+                    sendToMakeWebhook(studentData, submitBtn, submitText);
+                },
+                "prefill": { "name": studentData.fullName, "contact": studentData.contactNumber },
+                "theme": { "color": "#f59e0b" },
+                "modal": {
+                    "ondismiss": function(){
+                        submitText.innerText = translations[currentLang].btnSubmit;
+                        submitBtn.disabled = false;
+                    }
+                }
+            };
+            var rzp1 = new Razorpay(options);
+            rzp1.open();
+        });
+
+        // 4. Webhook Function
+        function sendToMakeWebhook(payload, buttonElement, textElement) {
+            const makeWebhookUrl = 'https://hook.eu1.make.com/r3ikleym5klp74yxb5xduadi52wuvq4d';
+            fetch(makeWebhookUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            })
+            .then(response => {
+                if(response.ok) {
+                    alert(currentLang === 'en' ? "Admission Successful! Welcome to Om Sai Classes." : "प्रवेश यशस्वी! ओम साई क्लासेसमध्ये आपले स्वागत आहे.");
+                    document.getElementById('admissionForm').reset(); 
+                } else {
+                    alert(currentLang === 'en' ? "Payment successful, but there was an issue saving data." : "पेमेंट यशस्वी झाले, परंतु माहिती सेव्ह करताना काहीतरी अडचण आली.");
+                }
+            })
+            .catch(error => {
+                alert(currentLang === 'en' ? "Network error while saving data." : "माहिती सेव्ह करताना नेटवर्कमध्ये अडचण आली. कृपया पुन्हा प्रयत्न करा.");
+            })
+            .finally(() => {
+                textElement.innerText = translations[currentLang].btnSubmit;
+                buttonElement.disabled = false;
+            });
+        }
+    </script>
+</body>
+</html>w
